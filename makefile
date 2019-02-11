@@ -1,5 +1,10 @@
+CC = gcc
+CFLAGS = -g -Wall -std=c11 -D_XOPEN_SOURCE=700
+
+RM = rm -rf
+
 all: clean
-	cc -o commomDivisor commomDivisor.c
+	$(CC) -o commomDivisor commomDivisor.c $(CFLAGS)
 
 clean:
-	-rm commomDivisor
+	-$(RM) commomDivisor
