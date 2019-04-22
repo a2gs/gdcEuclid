@@ -1,6 +1,6 @@
 /* Andre Augusto Giannotti Scota
  * andre.scota@gmail.com
- * Public domain
+ * MIT License
  */
 
 #include <stdio.h>
